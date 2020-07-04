@@ -1,7 +1,7 @@
 ---
 title: "how to learn"
-author: "infsr"
 date: 2019-10-20
+author: "infsr"
 tags:
 - learn
 ---
