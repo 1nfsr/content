@@ -1,10 +1,7 @@
 ---
 title: hello world
 date: "2012-10-11"
-draft: false
-toc: false
-images:
-  - 
+author: "infsr"
 tags:
   - hello world
 ---
