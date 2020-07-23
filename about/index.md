@@ -2,7 +2,6 @@
 title: "About"
 date: "2019-12-19"
 Description: "about this blog"
-draft: true
 author: "infsr"
 type: "page"
 
