@@ -1,11 +1,11 @@
 ---
 title: "自建TimeCapsule给Mac备份"
-author: "infsr"
 date: 2020-07-07
-tags:
-- openwrt
-- TimeCapsule
-- Mac
+author: "infsr"
+Description: ""
+tags: ["OpenWrt", "TimeCapsule", "Mac"]
+Categories: []
+
 ---
 
 
