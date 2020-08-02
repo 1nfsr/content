@@ -1,7 +1,6 @@
 ---
 title: "编译自己的Openwrt"
-date: 2020-08-04
-timezone: UTC+8
+date: 2020-08-04T00:00:00+08:00
 author: "infsr"
 Description: ""
 tags: ["OpenWrt", Github"]

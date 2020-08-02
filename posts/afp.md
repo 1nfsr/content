@@ -1,7 +1,6 @@
 ---
 title: "自建TimeCapsule给Mac备份"
-date: 2020-07-07
-timezone: UTC+8
+date: 2020-07-07T00:00:00+08:00
 author: "infsr"
 Description: ""
 tags: ["OpenWrt", "TimeCapsule", "Mac"]
