@@ -8,10 +8,4 @@ type: "pages"
 ---
 
 
-###  Profile
-
-​	一个长大的小孩
-
-### Level
-
-​	Python	
+做自己喜欢的事 做自己！
