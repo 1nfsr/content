@@ -3,7 +3,7 @@ title: "About"
 date: "2019-12-19"
 Description: "about this blog"
 author: "infsr"
-type: "pages"
+type: "about"
 
 ---
 
