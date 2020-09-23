@@ -21,7 +21,7 @@ Categories: []
 
 /etc/afp.conf
 
-```toml
+```shell
 ;
 ; Netatalk 3.x configuration file
 ;
@@ -35,7 +35,7 @@ Categories: []
 
 /etc/avahi/avahi-daemon.conf
 
-```toml
+```conf
 [server]
 host-name=Time Capsule   # 修改显示名称
 #domain-name=local
@@ -110,4 +110,6 @@ chgrp users Backups/
 
 最后就是在mac上设置Time Machine的过程了 非常简单 
 
-自动备份省心了 。。上成果图![](https://raw.githubusercontent.com/1nfsr/content/image-hosting/20200707190042.png)
+自动备份省心了.. 上成果图
+
+![](https://raw.githubusercontent.com/1nfsr/content/image-hosting/20200707190042.png)
