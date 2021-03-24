@@ -14,8 +14,6 @@ categories: ["新的开始"]
 
 <!--more-->
 
-```python
-
+{{< highlight python >}}
 print("hello world")
-
-```
+{{< / highlight >}}
