@@ -2,7 +2,7 @@
 title: "Archives"
 type: "archives"
 url: "/archives"
-layout: "list" 
+layout: "archives" 
 ---
 
 Blog archive
