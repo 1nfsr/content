@@ -13,6 +13,6 @@ categories: ["新的开始"]
 
 <!--more-->
 
-{{< highlight python >}}
+```python {linenos=table,hl_lines=[""],linenostart=1}
 print("hello world")
-{{< / highlight >}}
+```
