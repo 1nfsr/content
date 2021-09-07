@@ -41,7 +41,7 @@ categories: ["java"]
 |  int  | 32位 | 取值范围为（-2147483648~2147483647），占用**4个字节**（-2的31次方到2的31次方-1） |
 | long  | 64位 | 取值范围为（-9223372036854774808~9223372036854774807），占用**8个字节**（-2的63次方到2的63次方-1） |
 
-```java {linenos=table,hl_lines=[""],linenostart=1}
+```java
 public class HelloWorld {
     public static void main(String[] args) {
         byte b = 1;
@@ -65,7 +65,7 @@ public class HelloWorld {
 >
 > 只能存放一个字符,超过一个字符就会产生编译错误
 
-```Java {linenos=table,hl_lines=[""],linenostart=1}
+```Java {linenos=table,hl_lines=["1-3,5-6"],linenostart=1}
 public class HelloWorld {
     public static void main(String[] args) {
         char c = '中';
@@ -100,7 +100,7 @@ public class HelloWorld {
 | float  | 32位 | 数据范围在3.4E-038 ~ 3.4E+038，直接赋值时必须在数字后加上f或F。 |
 | double | 64位 | 数据范围在1.7E-308 ~ 1.7E+308，赋值时可以加d或D也可以不加。  |
 
-```Java {linenos=table,hl_lines=[""],linenostart=1}
+```Java
 public class HelloWorld {
     public static void main(String[] args) {
         double d = 123.45;
@@ -126,7 +126,7 @@ public class HelloWorld {
 >
 > 分别表示真和假; 虽然布尔型真正存放的数据是0(false) 1(true),但是 不能直接使用 0 1 进行赋值
 
-```java {linenos=table,hl_lines=[""],linenostart=1}
+```java
 public class HelloWorld {
     public static void main(String[] args) {
         boolean b1 = true;
@@ -146,7 +146,7 @@ public class HelloWorld {
 >
 > `String类型是Immutable的,一旦创建就不能够被改变`
 
-```java {linenos=table,hl_lines=[""],linenostart=1}
+```java
 public class HelloWorld {
     public static void main(String[] args) {
         String str = "Hello Java";
@@ -172,7 +172,7 @@ public class HelloWorld {
 >
 > 二进制: 基 2, 包含0和1, (从JAVA7开始就可以创建 二进制的字面值)
 
-```java {linenos=table,hl_lines=[""],linenostart=1}
+```java
 public class HelloWorld {
     public static void main(String[] args) {
         long val = 26L;	//以L结尾的字面值表示long
@@ -199,7 +199,7 @@ public class HelloWorld {
 >
 > 1.234e2 = 1.234x100
 
-```java {linenos=table,hl_lines=[""],linenostart=1}
+```java
 public class HelloWorld {
     public static void main(String[] args) {
         float f1 = 123.4F;	//以F结尾的字面值表示float
@@ -219,7 +219,7 @@ public class HelloWorld {
 >
 > 需要注意的是, \表示转义.比如需要表示制表符,回车换行,双引号等就需要用 \t \r \n \\" 的方式进行
 
-```java {linenos=table,hl_lines=[""],linenostart=1}
+```java
 public class HelloWorld {
     public static void main(String[] args) {
         String name = "SF";
@@ -268,7 +268,7 @@ graph LR;
 
 char 和short 强制转换
  
-```java {linenos=table,hl_lines=[""],linenostart=1}
+```java
 public class HelloWorld {
     public static void main(String[] args) {
         char c = 'A';
@@ -297,7 +297,7 @@ public class HelloWorld {
 >
 > 低精度向高精度转换是可以正常转换的 换句话说 int比较小 妖放进比较大的long 随便怎么样都放的进
 
-```java {linenos=table,hl_lines=[""],linenostart=1}
+```java
 public class HelloWorld {
     public static void main(String[] args) {
         long l = 50;
@@ -325,7 +325,7 @@ public class HelloWorld {
 >
 >这个时候就只能采用`强制转换`, 强制转换的意思就是 转是可以转的 但是不对转换之后的值负责 风险自担
 
-```java {linenos=table,hl_lines=[""],linenostart=1}
+```java
 public class HelloWorld {
     public static void main(String[] args) {
         byte b 5;
@@ -376,7 +376,7 @@ public class HelloWorld {
 >
 > 所以其作用域就是从其声明的位置开始的整个类
 
-```java {linenos=table,hl_lines=[""],linenostart=1}
+```java
 public class HelloWorld {
     int i = 1;
     int j = i; //其他的属性可以访问i
@@ -395,7 +395,7 @@ public class HelloWorld {
 >
 > 其他方法不能访问 该参数, 类里面页不能访问该参数
 
-```java {linenos=table,hl_lines=[""],linenostart=1}
+```java
 public class HelloWorld {
     public void method1(int i) { //参数i的作用域即方法method1
         System.out.println(i);
@@ -411,7 +411,7 @@ public class HelloWorld {
 >
 > 其作用域在声明开始的位置,到其所处于的快结束位置
 
-```java {linenos=table,hl_lines=[""],linenostart=1}
+```java
 public class HelloWorld {
 
     public void method() {

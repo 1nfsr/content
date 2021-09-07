@@ -13,6 +13,6 @@ categories: ["新的开始"]
 
 <!--more-->
 
-```python {linenos=table,hl_lines=[""],linenostart=1}
+```python
 print("hello world")
 ```
