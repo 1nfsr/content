@@ -1,11 +1,13 @@
 ---
+author: ""
 title: "java学习笔记"
 date: 2021-06-27T19:34:34+08:00
-author: "infsr"
-author_url: ""
 description: ""
 tags: ["java"]
 categories: ["java"]
+aliases: [""]
+url: "/posts/learn-java.html"
+
 ---
 
 <!--more-->
